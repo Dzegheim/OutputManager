@@ -195,7 +195,7 @@ template<typename OutType = std::wostream, typename StringType = std::wstring> c
 		 *     std::vector<double> Floats {1.1, 2.1, 3.1, 4.1, 5.1};	
 		 *     std::vector<std::wstring> Words {L"Cat", L"Dog", L"Mouse", L"Cow", L"Salmon"};
 		 *     OutputManager O;
-		 *     O.FirstNElementsRows(Numbers.begin(), Numbers.end(), Floats.begin(), Words.begin());
+		 *     O.FirstNElementsRows(3, Numbers.begin(), Floats.begin(), Words.begin());
 		 * }
 		 * ```
 		 * **Output:**
