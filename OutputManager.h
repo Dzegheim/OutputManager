@@ -4,8 +4,8 @@
 /**
  * @author [Dzegheim](https://github.com/Dzegheim)
  * @copyright [cc0-1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
- * @date 16-02-2021
- * @version 0.8
+ * @date 28-10-2021
+ * @version 0.8.1
  */
 
 #include <iostream>
@@ -204,6 +204,7 @@ template<typename OutType = std::wostream, typename StringType = std::wstring> c
 		 * 1.1 2.1 3.1	
 		 * Cat Dog Mouse
 		 * ```
+		 * @tparam N The number of rows to print from the first.
 		 * @tparam It A forward iterator.
 		 * @tparam Its A pack of forward iterators.
 		 * @param Begin Begin of the range to be printed in the first line.
